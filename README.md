@@ -103,7 +103,7 @@ Example usage
 	
 		// Alternate method to set cookie
 		var mr_cookie = new cookies.Cookie ('name', 'Samuel Smith');
-		mr_cookie.domain = 'example.com';
+		mr_cookie.domain = '.example.com';
 		mr_cookie.http_only = true;
 	
 		my_cookies.add_cookie (mr_cookie);
